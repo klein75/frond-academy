@@ -1,0 +1,67 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 75px;
+  background-color: #4B0082; 
+  position: fixed; 
+  height: 100%; 
+  padding: 0; 
+  margin: 0; 
+  left: 0;
+  padding: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 10px 0; 
+}
+
+.sidebar nav ul li button {
+  width: 100%; 
+  padding: 10px; 
+  color: white; 
+  background-color: #4B0082; 
+  border: none; 
+  cursor: pointer; 
+  text-align: left; 
+}
+
+.sidebar nav ul li button:hover {
+  background-color: #6A0DAD; 
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+  
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.card.large {
+  width: 300px;
+}
+
+.card.small {
+  width: 200px;
+}
